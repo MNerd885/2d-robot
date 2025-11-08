@@ -37,8 +37,8 @@ ENV DEBIAN_FRONTEND=dialog
 #####################
 FROM base AS dev
 
-ARG DAVE_WORKSPACE_DIR="/ament_ws"
 ARG USERNAME="davedev"
+ARG DAVE_WORKSPACE_DIR="/robot2d_ws"
 ARG UID=1000
 ARG GID=1000
 
